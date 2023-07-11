@@ -3,4 +3,4 @@ project(composite)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(composite main.cpp src/Component.cpp src/Leaf.cpp src/Composite.cpp)
+add_executable(composite main.cpp include/Component.hpp src/Component.cpp include/Leaf.hpp src/Leaf.cpp include/Composite.hpp src/Composite.cpp)

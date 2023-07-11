@@ -10,6 +10,7 @@ public:
     void remove(const std::shared_ptr<Component>& component) override;
     [[nodiscard]] bool isComposite() const override;
     [[nodiscard]] std::string operation() const override;
+
 protected:
     std::list<std::shared_ptr<Component>> children;
 };
